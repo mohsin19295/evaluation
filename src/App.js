@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route key="home" exact path="/home">
+          <Route key="home" exact path="/">
             <Home/>
           </Route>
           <Route key="about" exact path="/about">
